@@ -101,7 +101,7 @@ function displaySelected(isCorrect,currentQues) {
       let id = "#js-response";
       if(isCorrect) {
         questionData.score++; 
-        $(`${id}`).append(`GOAL!<br/><img src="https://media1.giphy.com/media/l41m74ATRsVYOUI92/200.webp?cid=790b7611d762220cca6a2a02aa73f6c4d032e427710cf12c&rid=200.webp">`);
+        $(`${id}`).append(`GOAL!<br/><img src="https://media1.giphy.com/media/l41m74ATRsVYOUI92/200.webp?cid=790b7611d762220cca6a2a02aa73f6c4d032e427710cf12c&rid=200.webp" width="70%">`);
         $(`${id}`).addClass("right");
       }
       else {
